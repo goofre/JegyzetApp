@@ -1,0 +1,19 @@
+{
+  "version": "0.1",
+  "name": "JegyzetApp",
+  "description": "Jegyzetek",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/style/icon/add.png"
+  },
+  "developer": {
+    "name": "Huszti Levente"
+  },
+  "default_locale": "hu",
+  "permissions": {
+    "desktop-notification": {
+      "description": "Needed for creating system notifications."
+    }
+  },
+  "appcache_path": "/cache.manifest"
+}

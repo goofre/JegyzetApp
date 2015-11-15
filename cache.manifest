@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# v1 2015-11-13
+
+CACHE:
+
+index.html
+manifest.webapp
+script/base.js
+style/style.css
+style/icon/add.png

@@ -1,0 +1,74 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: arial;
+    background:#777;
+}
+h1,h2{
+    margin:0;
+}
+#main{
+    width:320px;
+    heigth:480px;
+    max-height:480px;
+    margin:0 auto;
+    padding:0;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+#bottom{
+    font-size:small;
+    position:relative;
+    bottom:0;
+    background:rgba(0,0,0,0.2);
+    width:320px;
+    text-align:center;
+}
+#jegyzetek{
+    list-style:none;
+    padding:0;
+    margin-top:16px;
+}
+ ul{
+    padding:0;
+}
+#jegyzetek li{
+    background:rgba(255,255,255,0.2);
+    margin-top:8px;
+    min-height:64px;
+}
+#jegyzetek h1{
+    font-size:24px;
+}
+#jegyzetek h2{
+    font-size:18px;
+    font-weight: normal;
+}
+#add{
+    height:32px;
+    width:32px;
+    margin:0 auto;
+    border:0;
+    background:url("icon/add.png");
+    background-size: cover;
+}
+#install{
+    font-size: 20px;
+    font-weight: bold;
+    background:rgba(0,255,0,0.3);
+    color:#0f0;
+    border:0;
+    border-radius: 0;
+    display:block;
+    margin:auto;
+}
+#addtitle, #addtxt{
+    width:318px;
+    margin:0,64px,0,0;
+    border:0;
+    max-width:318px;
+    min-width:318px;
+    background:#fff;
+    border-radius:0;
+    
+}
